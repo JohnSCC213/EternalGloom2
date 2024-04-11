@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barra de navegación con buscador</title>
+<link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+<style>
+  /* Estilos para las secciones horizontales */
+.seccion-horizontal {
+  display: flex;
+  justify-content: center; /* Centrar contenido horizontalmente */
+}
+
+/* Estilos para los productos */
+.producto {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center; /* Alineación de texto al centro */
+  width: 200px; /* Ancho fijo */
+  margin: 10px; /* Espacio entre productos */
+}
+
+/* Estilos para el aviso de descuento */
+.descuento {
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px; /* Espacio entre el producto y el descuento */
+}
+
+</style>
+</head>
+<body>
+
+  <div class="seccion seccion-horizontal">
+    <div class="producto">
+      <h2>Producto 1</h2>
+      <img src="./img/producto1.jpeg" alt="collar-gotico" width="200">
+      <p>Precio: $50</p>
+      <div class="descuento">
+        <p>¡50% de descuento!</p>
+      </div>
+    </div>
+
+  <div class="seccion seccion-horizontal">
+    <div class="producto">
+      <h2>Producto 2</h2>
+      <img src="./img/producto2.jpeg" alt="collar-bonito" width="200">
+      <p>Precio: $80</p>
+      <div class="descuento">
+        <p>¡50% de descuento!</p>
+      </div>
+    </div>
+    </div>
+</div>
+
+  <div class="seccion seccion-horizontal">
+    <div class="producto">
+      <h2>Producto 3</h2>
+      <img src="./img/producto3.jpeg" alt="Collar-bonito" width="200">
+      <p>Precio: $100</p>
+      <div class="descuento">
+        <p>¡50% de descuento!</p>
+      </div>
+    </div>
+
+    <div class="producto">
+      <h2>Producto 4</h2>
+      <img src="./img/producto4.jpeg" alt="collar-bonito" width="200">
+      <p>Precio: $120</p>
+      <div class="descuento">
+        <p>¡50% de descuento!</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EternalGloom.com</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navbar h1 {
+      margin: 0;
+      padding: 10px 0;
+      color: white;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+   
+    .search-container input[type=text] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+      border-radius: 5px;
+    }
+    .search-container button {
+      float: right;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .login-button {
+      float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      background-color: #4CAF50;
+      border-radius: 5px;
+      margin-top: 8px;
+      margin-right: 20px;
+    }
+    .login-button:hover {
+      background-color: #45a049;
+    }
+    @media screen and (max-width: 600px) {
+      .navbar a, .search-container {
+        float: none;
+        display: block;
+        text-align: center;
+      }
+      .search-container {
+        margin-top: 10px;
+      }
+      .search-container input[type=text] {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+      }
+      .search-container button {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+      }
+    }
+.hero {
+  background-image: url(../img/producto4.jpeg);
+  height: 500px;
+  background-size: cover;
+}
+  </style>
+</head>
+<body>
+
+<section>
+  <div class="navbar"> 
+    <h1> EternalGloom.com </h1> 
+    <a href="./paginaprincipal.html">Inicio</a>
+    <a href="../Servicios/servicios.html">Servicios</a>
+    <a href="../Acerca-de/acercade.html">Acerca de</a>
+    <div class="search-container">
+      <form action="/buscar">
+        <input type="text" placeholder="Buscar..." name="search">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+    <a href="./inicio-sesion.html" class="login-button">Iniciar Sesión</a>
+  </div>
+</section>
+
+<DIV class="hero"> </DIV>
+
+</body>
+</html>
